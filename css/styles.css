@@ -1,3 +1,10 @@
+/* GLOBAL STYLES */
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+/* NAVBAR STYLES */
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
@@ -31,4 +38,31 @@
 }
 .third-slide {
   background-image: url('../img/farm-2.jpg');
+}
+
+/* OUR STORY STYLES */
+#our_story {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+#our_story h1 {
+  font-family: 'Lobster', cursive;
+  color: #F8512F;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0A0A0A;
+}
+#our_story h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 12em;
+  color: rgba(149, 147, 147, 0.2);
+  position: absolute;
+  z-index: -1;
+}
+#our_story h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 0;
 }
